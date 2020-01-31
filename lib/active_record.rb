@@ -1,2 +1,5 @@
-require 'active_record/base'
-require 'active_record/connection_adapter'
+module ActiveRecord
+  autoload :Base, 'active_record/base'
+  autoload :ConnectionAdapter, 'active_record/connection_adapter'
+  autoload :Relation, 'active_record/relation'
+end
