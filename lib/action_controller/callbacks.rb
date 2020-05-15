@@ -1,8 +1,6 @@
 module ActionController
   module Callbacks
     class Callback
-      attr_accessor :method
-
       def initialize(method, options)
         @method = method
         @options = options
@@ -10,7 +8,7 @@ module ActionController
 
       def match?(action)
         if @options[:only]
-          @options[:only].include? action.to_s
+          @options[:only].include? action.to_sym
         else
           true
         end
