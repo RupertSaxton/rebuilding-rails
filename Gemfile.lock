@@ -21,7 +21,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
     minitest (5.14.0)
-    rack (2.2.2)
+    rack (2.2.3)
     rake (10.5.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
