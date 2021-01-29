@@ -22,7 +22,7 @@ GEM
       rb-inotify (>= 0.9.7)
     minitest (5.14.0)
     rack (2.2.2)
-    rake (10.5.0)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -51,7 +51,7 @@ DEPENDENCIES
   listen (= 3.1.1)
   mini-rails!
   minitest (~> 5.0)
-  rake (~> 10.0)
+  rake (~> 12.3)
   rerun
   sass
   sqlite3
